@@ -9,23 +9,40 @@
   background-color: white;
   box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0, 0.3) !important;
 }
+
+.swipeButtons .MuiIconButton-root:nth-child(4)  {
+  border: 5px solid #76e2b3;
+}
+.swipeButtons .MuiIconButton-root:nth-child(1)  {
+  border: 5px solid #f5b748;
+}
+.swipeButtons .MuiIconButton-root:nth-child(2)  {
+  border: 5px solid #ec5e67;
+}
+.swipeButtons .MuiIconButton-root:nth-child(3)  {
+  border: 5px solid #62b4f9;
+}
+.swipeButtons .MuiIconButton-root:nth-child(5)  {
+  border: 5px solid #915dd1;
+}
+
 .swipeButtons__repeat {
-  padding: 3vw !important;
+  padding: 1vw !important;
   color: #f5b748 !important;
 }
 .swipeButtons__close {
-  padding: 3vw !important;
+  padding: 1vw !important;
   color: #ec5e67 !important;
 }
 .swipeButtons__star {
-  padding: 3vw !important;
+  padding: 1vw !important;
   color: #62b4f9 !important;
 }
 .swipeButtons__favorite {
-  padding: 3vw !important;
+  padding: 1vw !important;
   color: #76e2b3 !important;
 }
 .swipeButtons__lightning {
-  padding: 3vw !important;
+  padding: 1vw !important;
   color: #915dd1 !important;
 }
