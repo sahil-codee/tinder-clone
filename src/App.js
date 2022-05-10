@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Header/Header';
+import SwipeButtons from './SwipeButtons/SwipeButtons';
 import TinderCards from './TinderCards/TinderCards';
 
 function App() {
@@ -9,9 +10,7 @@ function App() {
     <div className="app">
       <Header />
       <TinderCards />
-      {/* Header */}
-      {/* TinderCards */}
-      {/* SwipeButtons */}
+      <SwipeButtons />
     </div>
   );
 }
