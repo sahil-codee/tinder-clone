@@ -3,7 +3,7 @@
 
 <p align="center"><a href="https://Tinder-clone-2e8ed.web.app/">https://Tinder-clone-2e8ed.web.app/</a></p
   
-<img width="100%" src="./tinder-clone/Images/Tinder.gif"></img>
+  <img width="50%" align="center" src="./tinder-clone/Images/Tinder.gif"></img>
 
 <h2>Built With:</h2>
 
