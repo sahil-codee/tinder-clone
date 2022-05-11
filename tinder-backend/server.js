@@ -25,7 +25,7 @@ mongoose.connect(connection_url)
 //   useUnifiedTopology: true,
 // });
 // Api Endpoints
-app.get("/", (req, res) => res.status(200).send("Hello Clever Programmers!"));
+app.get("/", (req, res) => res.status(200).send("Hello Fellow Programmers..!"));
 
 app.post("/tinder/cards", (req, res) => {
   const dbCard = req.body;
