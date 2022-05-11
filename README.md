@@ -1,7 +1,7 @@
 <h1 align="center">MERN Tinder-Clone </h1>
 <p align="center">A Tinder Clone application that you can use to right swipe and left swipe on people cards.</p>
 
-<p align="center"><a href="https://Tinder-clone-2e8ed.web.app/">https://Tinder-clone-2e8ed.web.app/</a></p
+<p align="center"><a href="https://tinder-clone-70e43.web.app/">https://tinder-clone-70e43.web.app/</a></p
   
   <img width="50%" align="center" src="./tinder-clone/Images/Tinder.gif"></img>
 
