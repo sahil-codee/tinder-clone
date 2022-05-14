@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import Chats from "./Chats/Chats";
 import ChatScreen from "./ChatScreen/ChatScreen";
+import Chat from "./Chats/Chat";
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
             element={
             <>
             <Header backButton="/chat" />
-            <ChatScreen path="/chat/:person/:messages" />
+            <ChatScreen />
             </>
             }
           ></Route>
