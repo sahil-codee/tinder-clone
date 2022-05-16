@@ -38,7 +38,6 @@ function App() {
             </>
             }
           ></Route>
-          <Route exact path="/dive"></Route>
           <Route
             path="/"
             element={
