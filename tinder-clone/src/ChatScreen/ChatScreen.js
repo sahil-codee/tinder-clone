@@ -13,7 +13,7 @@ function ChatScreen() {
       name: "Sofia",
       image:
         "https://www.telegraph.co.uk/content/dam/tv/2016/09/14/sofia-vergara_trans_NvBQzQNjv4BqZgEkZX3M936N5BQK4Va8RTgjU7QtstFrD21mzXAYo54.jpg",
-      message : "What's up ?",
+      message: "What's up ?",
     },
     {
       id: 2,
@@ -22,9 +22,16 @@ function ChatScreen() {
         "https://www.telegraph.co.uk/content/dam/tv/2016/09/14/sofia-vergara_trans_NvBQzQNjv4BqZgEkZX3M936N5BQK4Va8RTgjU7QtstFrD21mzXAYo54.jpg",
       message: "How it's going!",
       messageClient: "Hey, How are you Sofia!",
-
     },
-
+    {
+      id: "1996",
+      name: "Martin",
+      message: "Hello What's Up?",
+      timeStamp: "40 minutes ago",
+      image:
+        "https://geo-media.beatport.com/image_size/590x404/f8117f84-40d6-4403-bb2d-5bdf304dd12e.jpg",
+      messageClient: "Hey, How are you Martin!",
+    },
   ]);
 
   function handleSent(e) {
@@ -60,8 +67,8 @@ function ChatScreen() {
       {messages
         .filter((message) => message.name === person)
         .map((message) => (
-          // message.name ? (
-            <>
+          // message.messageClient === "" ? (
+          <>
             <div key={message.id} className="chatScreen__message">
               <Avatar
                 className="chatScreen__image"
@@ -70,13 +77,13 @@ function ChatScreen() {
               />
               <p className="chatScreen__text">{message.message}</p>
             </div>
-            <br />
-            {/* // ) : ( */}
             <div className="chatScreen__message">
               <p className="chatScreen__textUser">{message.messageClient}</p>
             </div>
-            </>
-            // )
+          </>
+          //  ) : (
+          //    ""
+          // )
         ))}
 
       <form className="chatScreen__input">
