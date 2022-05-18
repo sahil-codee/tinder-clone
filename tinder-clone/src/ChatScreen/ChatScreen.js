@@ -1,7 +1,6 @@
 // import { Avatar } from "@mui/material";
 import React, { useState } from "react";
 import "./ChatScreen.css";
-import data from "../Data";
 import { useParams } from "react-router-dom";
 import { Avatar } from "@mui/material";
 
