@@ -27,6 +27,20 @@ function Chats() {
         profilePic="https://pbs.twimg.com/media/EF-H0FhU8AIlnV7.jpg"
       />
       <Chat
+        id={6}
+        name="Shakira"
+        message="Hello What's Up?"
+        timeStamp="37 minutes ago"
+        profilePic="https://ngs-space1.sgp1.digitaloceanspaces.com/am/uploads/mediaGallery/image/1626890188909.jpg-org"
+      />
+      <Chat
+        id={5}
+        name="Enrique"
+        message="Hello What's Up?"
+        timeStamp="10 minutes ago"
+        profilePic="https://d3nxoulyw7bc8u.cloudfront.net/images/artists/None/b97ba66d-9c0c-4531-9b98-fdb9c9dc6af0.jpg"
+      />
+      <Chat
         id={4}
         name="Dakota"
         message="Hello What's Up?"

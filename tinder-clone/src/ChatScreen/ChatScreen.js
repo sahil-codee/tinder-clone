@@ -13,6 +13,7 @@ function ChatScreen() {
       image:
         "https://www.telegraph.co.uk/content/dam/tv/2016/09/14/sofia-vergara_trans_NvBQzQNjv4BqZgEkZX3M936N5BQK4Va8RTgjU7QtstFrD21mzXAYo54.jpg",
       message: "What's up ?",
+      messageClient: "Cool!",
     },
     {
       id: 2,
@@ -34,7 +35,7 @@ function ChatScreen() {
   ]);
 
   function handleSent(e) {
-    setMessages([...messages, { message: inputData }]);
+    setMessages([...messages, { messageClient: inputData }]);
     setInputData("");
     e.preventDefault();
   }
@@ -46,29 +47,12 @@ function ChatScreen() {
       <p className="chatScreen__timestamp">
         {`YOU MATCHED WITH ${person.toUpperCase()} ON 10/05/22`}
       </p>
-      {/* {data
-        .filter((item) => item.name === person)
-        .map((item, index) => (
-          <div className="chatScreen__message">
-            <Avatar
-              className="chatScreen__image"
-              alt={item.name}
-              src={`${item.profilePic}`}
-            />
-            <p className="chatScreen__text">{item.message}</p>
-            <div className="chatScreen__message">
-              <p className="chatScreen__textUser">{item.message}</p>
-            </div>
-          </div>
-
-        ))} */}
 
       {messages
         .filter((message) => message.name === person)
         .map((message) => (
-          // message.messageClient === "" ? (
-          <>
-            <div key={message.id} className="chatScreen__message">
+          <div key={message.id}>
+            <div className="chatScreen__message">
               <Avatar
                 className="chatScreen__image"
                 alt={message.name}
@@ -79,10 +63,7 @@ function ChatScreen() {
             <div className="chatScreen__message">
               <p className="chatScreen__textUser">{message.messageClient}</p>
             </div>
-          </>
-          //  ) : (
-          //    ""
-          // )
+          </div>
         ))}
 
       <form className="chatScreen__input">

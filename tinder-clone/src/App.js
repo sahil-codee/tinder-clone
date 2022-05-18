@@ -6,11 +6,10 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Navigate,
 } from "react-router-dom";
 import Chats from "./Chats/Chats";
 import ChatScreen from "./ChatScreen/ChatScreen";
-import Chat from "./Chats/Chat";
+// import Chat from "./Chats/Chat";
 
 function App() {
   return (
