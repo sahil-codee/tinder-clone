@@ -4,9 +4,7 @@ import Chat from "./Chat";
 
 function Chats() {
   return (
-
     <div className="chats">
-      
       <Chat
         id={1}
         name="Martin"
