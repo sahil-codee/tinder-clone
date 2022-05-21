@@ -12,6 +12,8 @@ function Chats() {
         timeStamp="40 minutes ago"
         profilePic="https://geo-media.beatport.com/image_size/590x404/f8117f84-40d6-4403-bb2d-5bdf304dd12e.jpg"
       />
+
+      
       <Chat
         id={2}
         name="Sofia"
